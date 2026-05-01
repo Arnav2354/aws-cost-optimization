@@ -219,6 +219,14 @@ Verify execution logs in CloudWatch
 
 ---
 
+## Impact
+
+- Automated cleanup of unused EBS snapshots
+- Prevents accumulation of orphaned storage
+- Reduces unnecessary AWS storage costs
+
+---
+
 ## Execution Metrics
 
 | Metric | Value |
